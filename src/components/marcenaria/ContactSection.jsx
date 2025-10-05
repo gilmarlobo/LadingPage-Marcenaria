@@ -17,7 +17,7 @@ export default function ContactSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const whatsappMessage = `Olá! Me chamo ${formData.name}.\n\nEmail: ${formData.email}\nTelefone: ${formData.phone}\n\nMensagem: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5598981118527?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -180,7 +180,7 @@ export default function ContactSection() {
             {/* Mapa */}
             <div className="rounded-2xl overflow-hidden shadow-xl h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976886222934!2d-46.6333824!3d-23.5505199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1sen!2sbr!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m13!1m11!1m3!1d456.8678882784703!2d-45.66163485217473!3d-3.284121225322605!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1759673563364!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
