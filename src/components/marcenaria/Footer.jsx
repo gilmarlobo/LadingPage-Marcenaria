@@ -55,7 +55,7 @@ export default function Footer({ scrollToSection }) {
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-amber-400" />
-                <span>(11) 99999-9999</span>
+                <span>(98)98111-8527</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-amber-400" />

@@ -17,7 +17,7 @@ export default function ContactSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const whatsappMessage = `Olá! Me chamo ${formData.name}.\n\nEmail: ${formData.email}\nTelefone: ${formData.phone}\n\nMensagem: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/5598981118527?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5598982468484?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -25,14 +25,14 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Telefone",
-      value: "(11) 99999-9999",
-      link: "tel:+5511999999999"
+      value: "(98) 98111-8527",
+      link: "tel:+5598981118527"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      value: "(11) 99999-9999",
-      link: "https://wa.me/5511999999999"
+      value: "(98) 98111-8527",
+      link: "https://wa.me/5598981118527"
     },
     {
       icon: Mail,
@@ -43,7 +43,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Endereço",
-      value: "Rua das Madeiras, 123 - São Paulo, SP",
+      value: "Rua Antonio da Costa, 455, Vila Nova, Zé Doca - MA",
       link: "#"
     },
     {
